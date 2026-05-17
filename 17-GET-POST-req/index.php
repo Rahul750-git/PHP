@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/PHP/17-GET-POST-req">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -61,13 +61,14 @@
   <hr>
   <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 </div>';
-    };
+    }
+    ;
     // Submit these to a database
     // echo"". $email ."". $password ."";
     ?>
     <div class="container mt-4">
         <h1>Please Enter a Email & Password.</h1>
-        <form action="./PHP/17-GET-POST-req.php" method="post">
+        <form action="/PHP/17-GET-POST-req\index.php" method="post">
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
